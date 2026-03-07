@@ -5,7 +5,16 @@
         160deg,
         hsl(190, 60%, 58%) 0%,
         hsl(220, 65%, 55%) 45%,
-        hsl(265, 55%, 54%) 100%
+        hsl(265, 58%, 41%) 100%
+    );
+
+    --gradient-2: linear-gradient(
+        90deg,
+        #00c2db,
+        #00a2ff,
+        #0084ff,
+        #0077ff,
+        #003cff
     );
 }
 
@@ -15,7 +24,7 @@ body {
     margin: 0;
     background-size: 300%;
     background-image: var(--gradient);
-    animation: bg-animation 20s infinite;
+    animation: bg-animation 15s infinite;
 }
 
 @keyframes bg-animation {
@@ -24,7 +33,27 @@ body {
     100% {background-position: left;}
 }
 
+.photo {
+    border-radius: 50%;
+    padding: 6px;
+    display: inline-block;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
 
+    background-image: var(--gradient-2);
+    background-size: 300%;
+    background-position: right;
+    animation: bg-animation 10s infinite;
+}
+
+.photo img {
+    border-radius: inherit;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 section {
     display: grid;
