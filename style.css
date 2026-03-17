@@ -132,6 +132,13 @@ section {
     padding-top: 2rem;
 }
 
+.profile {
+    font-weight: 600;
+    font-size: 1.3rem;
+    width: 500px;
+    line-height: 1.5;
+}
+
 p {
     display: block;
     margin-block-start: 1em;
