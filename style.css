@@ -25,6 +25,8 @@
         #000986,
         #00ccff
     );
+
+    --base-color: white;
 }
 
 body {
@@ -34,6 +36,7 @@ body {
     background-size: 300%;
     background-image: var(--gradient);
     animation: bg-animation 15s infinite;
+    color: var(--base-color);
 }
 
 @keyframes bg-animation {
@@ -73,6 +76,37 @@ body {
     color: transparent;
 }
 
+.navigation-bar {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: rgba(40, 40, 40, 0.95);
+    /*👉backdrop-filter: blur(8px);👈*/
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 4px;
+    z-index: 2147483647;
+    border-bottom: 1px solid rgb(26, 26, 26);
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--base-color);
+}
+
 section {
     display: grid;
     place-items: center;
@@ -80,7 +114,7 @@ section {
     min-height: 100vh;
 }
 
-.hidden {
+/*👉.hidden {
     opacity: 0;
     filter: blur(8px);
     transform: translateX(-100%);
@@ -92,7 +126,7 @@ section {
     filter: blur(0);
     transform: translateX(0);
 }
-
+👈*/
 @media(prefers-reduced-motion) {
     .hidden {
         transition: none;
