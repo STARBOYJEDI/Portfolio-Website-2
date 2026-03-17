@@ -190,18 +190,5 @@ p {
     animation: bg-animation 12s infinite;
 }
 
-@media (max-width: 700px) {
-    .about-section::before {
-        height: 14px;
-    }
-}
-
-
-
-
-
-
-
-
 
 
