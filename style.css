@@ -156,7 +156,7 @@ p {
     unicode-bidi: isolate;
 }
 
-/*👉.hidden {
+.hidden {
     opacity: 0;
     filter: blur(8px);
     transform: translateX(-100%);
@@ -167,7 +167,7 @@ p {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
-}👈*/
+}
 
 @media(prefers-reduced-motion) {
     .hidden {
