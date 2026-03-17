@@ -17,16 +17,16 @@
         #003cff
     );
 
-    --gradient-3: linear-gradient(
-        30deg,
-        #00e1ff,
-        #00507e,
-        #003077,
-        #000986,
-        #00ccff
-    );
-
     --base-color: white;
+
+    --heading-gradient: linear-gradient(
+        90deg,
+        #00ffff,
+        #00e0ff,
+        #00c8ff,
+        #00b0ff,
+        #0098ff
+    );
 }
 
 body {
@@ -71,7 +71,8 @@ body {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 2rem;
-    background-image: var(--gradient-3);
+    background-image: var(--heading-gradient);
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
