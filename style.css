@@ -196,28 +196,6 @@ p {
     }
 }
 
-.skills {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 120px;
-    border: double 3px transparent;
-    border-image-slice: 1;
-    border-width: 3px;
-    background-image: linear-gradient(#1a1a1a, #1a1a1a), var(--reverse-gradient);
-    border-radius: 20px;
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    overflow: hidden;
-}
-
-.html5 img {
-    width: 100px;
-    height: 100px;
-}
-
 
 
 
