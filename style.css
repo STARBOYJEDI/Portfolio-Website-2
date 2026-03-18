@@ -175,7 +175,7 @@ p {
     }
 }
 
-.about-section::before {
+/*👉.about-section::before {
     content: '';
     position: absolute;
     width: 10rem;
@@ -188,7 +188,13 @@ p {
     background-size: 300%;
     background-position: right;
     animation: bg-animation 12s infinite;
+}👈*/
+
+.skills {
+    display: flex;
 }
 
-
-
+.logo {
+    padding: 1rem;
+    margin: 0 0.5rem;
+}
