@@ -201,6 +201,9 @@ p {
 
 .skill-name {
     font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 1px;
 }
 
 .logo-hidden {
