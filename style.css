@@ -200,8 +200,7 @@ p {
 }
 
 .skill-name {
-    text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .logo-hidden {
@@ -209,4 +208,8 @@ p {
     position: relative;
     display: flex;
     flex-direction: column;
+}
+
+.logo img {
+    height: 55px;
 }
