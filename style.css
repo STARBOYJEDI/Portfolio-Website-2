@@ -156,12 +156,12 @@ p {
     unicode-bidi: isolate;
 }
 
-.hidden {
+/*👉.hidden {
     opacity: 0;
     filter: blur(8px);
     transform: translateX(-100%);
     transition: all 2.5s;
-}
+}👈*/
 
 .show {
     opacity: 1;
@@ -220,6 +220,10 @@ p {
     font-weight: 600;
     line-height: 1;
     letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .logo-hidden {
@@ -232,3 +236,12 @@ p {
 .logo img {
     height: 55px;
 }
+
+.skills-js img {
+    border-radius: 5px;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+
+
